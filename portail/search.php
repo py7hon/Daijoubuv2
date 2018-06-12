@@ -32,7 +32,7 @@ form below to search it.</p>
 	
 			while ( $donnees = mysql_fetch_array ( $query ) )
 			{
-				echo '<a href="' . htmlentities ( $donnees ['url'] ) . '">' . htmlentities ( $donnees ['name'] ) . '</a> - ( Cracker : <font color="red">'.htmlentities( $donnees ['fansuber'] ).'</font> )<br/>';
+				echo '<a href="' . htmlentities ( $donnees ['url'] ) . '">' . htmlentities ( $donnees ['name'] ) . '</a> - ( Fansuber : <font color="red">'.htmlentities( $donnees ['fansuber'] ).'</font> )<br/>';
 			}
 	
 			echo '<br /><br />';
@@ -54,7 +54,7 @@ form below to search it.</p>
 ?>
 
 	<form action="index.php?crk=search" method="post">
-		<input id="textinput" class="textinput" name="q" value="XRS Search Engine" type="text" onclick="if(this.value=='XRS Search Engine')this.value = '';" onblur="if(this.value=='')this.value = 'XRS Search Engine'">
+		<input id="textinput" class="textinput" name="q" value="Daijoubu Search Engine" type="text" onclick="if(this.value=='Daijoubu Search Engine')this.value = '';" onblur="if(this.value=='')this.value = 'Daijoubu Search Engine'">
 		<input class="submitbutton" name="submit" value="Perform Search" type="submit">
 		<br><input type="radio" name="searchtype" value="byname" checked="checked"> Search by Release's Name
 		<br><input type="radio" name="searchtype" value="byfansuber"> Search by Fansuber's Name
