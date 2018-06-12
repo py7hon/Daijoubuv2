@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="rss_style.xsl"?>
+<rss version="2.0">
+<channel>
+<title>Daijoubu Releases</title>
+<link>https://0wo.me/daijoubu/</link>
+<description>Latest Daijoubu Releases</description>
+<copyright> Daijoubu CMS V2 2009</copyright>
+<language>en</language>
+<image>
+<title> Daijoubu Releases</title>
+<url>https://0wo.me/daijoubu/design/rss.png</url>
+<link>https://0wo.me/daijoubu/</link>
+</image>
+<pubDate>Tue, 12 Jun 2018 16:33:37 +0100</pubDate>
+<item>
+<title>Akkun to Kanojo Episode 1 – 4 (Subtitle Indonesia)</title>
+<link>https://0wo.me/daijoubu/</link>
+<pubDate>Tue, 12 Jun 2018 16:33:37 +0100</pubDate>
+<description>Visit our distro to download</description>
+</item>
+</channel>
+</rss>
